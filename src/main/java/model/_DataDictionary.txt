@@ -1,0 +1,259 @@
+Table: combas
+------------+--------------+------+-----+---------+---------
+ Field      | Type         | Null | Key | Default | Remarks 
+------------+--------------+------+-----+---------+---------
+ Stkcd      | INT(10)      | YES  |     |         |         
+ Accper     | DATE(10)     | YES  |     |         |         
+ Typrep     | VARCHAR(255) | YES  |     |         |         
+ A001101000 | FLOAT(12)    | YES  |     |         |         
+ A0d1101101 | VARCHAR(255) | YES  |     |         |         
+ A0d1102000 | BIGINT(19)   | YES  |     |         |         
+ A0d1102101 | VARCHAR(255) | YES  |     |         |         
+ A0b1103000 | VARCHAR(255) | YES  |     |         |         
+ A0b1104000 | FLOAT(12)    | YES  |     |         |         
+ A0b1105000 | VARCHAR(255) | YES  |     |         |         
+ A0f1106000 | FLOAT(12)    | YES  |     |         |         
+ A001107000 | FLOAT(12)    | YES  |     |         |         
+ A0f1108000 | FLOAT(12)    | YES  |     |         |         
+ A001109000 | VARCHAR(255) | YES  |     |         |         
+ A001110000 | VARCHAR(255) | YES  |     |         |         
+ A001111000 | VARCHAR(255) | YES  |     |         |         
+ A001112000 | VARCHAR(255) | YES  |     |         |         
+ A0i1113000 | VARCHAR(255) | YES  |     |         |         
+ A0i1114000 | VARCHAR(255) | YES  |     |         |         
+ A0i1115000 | VARCHAR(255) | YES  |     |         |         
+ A0i1116000 | BIGINT(19)   | YES  |     |         |         
+ A0i1116101 | VARCHAR(255) | YES  |     |         |         
+ A0i1116201 | VARCHAR(255) | YES  |     |         |         
+ A0i1116301 | VARCHAR(255) | YES  |     |         |         
+ A0i1116401 | VARCHAR(255) | YES  |     |         |         
+ A001119000 | FLOAT(12)    | YES  |     |         |         
+ A001120000 | BIGINT(19)   | YES  |     |         |         
+ A001121000 | FLOAT(12)    | YES  |     |         |         
+ A0f1122000 | BIGINT(19)   | YES  |     |         |         
+ A001123000 | VARCHAR(255) | YES  |     |         |         
+ A001124000 | VARCHAR(255) | YES  |     |         |         
+ A0d1126000 | VARCHAR(255) | YES  |     |         |         
+ A001125000 | VARCHAR(255) | YES  |     |         |         
+ A001100000 | VARCHAR(255) | YES  |     |         |         
+ A0i1224000 | VARCHAR(255) | YES  |     |         |         
+ A0i1225000 | VARCHAR(255) | YES  |     |         |         
+ A0b1201000 | FLOAT(12)    | YES  |     |         |         
+ A001202000 | FLOAT(12)    | YES  |     |         |         
+ A001203000 | VARCHAR(255) | YES  |     |         |         
+ A001204000 | VARCHAR(255) | YES  |     |         |         
+ A001205000 | FLOAT(12)    | YES  |     |         |         
+ A001206000 | VARCHAR(255) | YES  |     |         |         
+ A001207000 | VARCHAR(255) | YES  |     |         |         
+ A0i1209000 | VARCHAR(255) | YES  |     |         |         
+ A0i1210000 | VARCHAR(255) | YES  |     |         |         
+ A001211000 | VARCHAR(255) | YES  |     |         |         
+ A001212000 | FLOAT(12)    | YES  |     |         |         
+ A001213000 | FLOAT(12)    | YES  |     |         |         
+ A001214000 | VARCHAR(255) | YES  |     |         |         
+ A001215000 | FLOAT(12)    | YES  |     |         |         
+ A001216000 | VARCHAR(255) | YES  |     |         |         
+ A001217000 | VARCHAR(255) | YES  |     |         |         
+ A001218000 | FLOAT(12)    | YES  |     |         |         
+ A0d1218101 | VARCHAR(255) | YES  |     |         |         
+ A001219000 | VARCHAR(255) | YES  |     |         |         
+ A001220000 | VARCHAR(255) | YES  |     |         |         
+ A001221000 | FLOAT(12)    | YES  |     |         |         
+ A001222000 | FLOAT(12)    | YES  |     |         |         
+ A001223000 | VARCHAR(255) | YES  |     |         |         
+ A001200000 | VARCHAR(255) | YES  |     |         |         
+ A0f1300000 | FLOAT(12)    | YES  |     |         |         
+ A001000000 | FLOAT(12)    | YES  |     |         |         
+ A002101000 | BIGINT(19)   | YES  |     |         |         
+ A0d2101101 | VARCHAR(255) | YES  |     |         |         
+ A0b2102000 | BIGINT(19)   | YES  |     |         |         
+ A0b2103000 | FLOAT(12)    | YES  |     |         |         
+ A0b2103101 | FLOAT(12)    | YES  |     |         |         
+ A0b2103201 | FLOAT(12)    | YES  |     |         |         
+ A0f2104000 | BIGINT(19)   | YES  |     |         |         
+ A002105000 | VARCHAR(255) | YES  |     |         |         
+ A0f2106000 | FLOAT(12)    | YES  |     |         |         
+ A002107000 | VARCHAR(255) | YES  |     |         |         
+ A002108000 | VARCHAR(255) | YES  |     |         |         
+ A002109000 | VARCHAR(255) | YES  |     |         |         
+ A0f2110000 | FLOAT(12)    | YES  |     |         |         
+ A0i2111000 | VARCHAR(255) | YES  |     |         |         
+ A002112000 | FLOAT(12)    | YES  |     |         |         
+ A002113000 | FLOAT(12)    | YES  |     |         |         
+ A002114000 | FLOAT(12)    | YES  |     |         |         
+ A002115000 | FLOAT(12)    | YES  |     |         |         
+ A0i2116000 | VARCHAR(255) | YES  |     |         |         
+ A0i2117000 | VARCHAR(255) | YES  |     |         |         
+ A0i2118000 | VARCHAR(255) | YES  |     |         |         
+ A0i2119000 | BIGINT(19)   | YES  |     |         |         
+ A0i2119101 | VARCHAR(255) | YES  |     |         |         
+ A0i2119201 | VARCHAR(255) | YES  |     |         |         
+ A0i2119301 | VARCHAR(255) | YES  |     |         |         
+ A0i2119401 | VARCHAR(255) | YES  |     |         |         
+ A002120000 | FLOAT(12)    | YES  |     |         |         
+ A0i2121000 | VARCHAR(255) | YES  |     |         |         
+ A0d2122000 | VARCHAR(255) | YES  |     |         |         
+ A0d2123000 | VARCHAR(255) | YES  |     |         |         
+ A0i2124000 | VARCHAR(255) | YES  |     |         |         
+ A002125000 | VARCHAR(255) | YES  |     |         |         
+ A002126000 | VARCHAR(255) | YES  |     |         |         
+ A002127000 | VARCHAR(255) | YES  |     |         |         
+ A002100000 | VARCHAR(255) | YES  |     |         |         
+ A002201000 | VARCHAR(255) | YES  |     |         |         
+ A0d2202000 | VARCHAR(255) | YES  |     |         |         
+ A002203000 | BIGINT(19)   | YES  |     |         |         
+ A002204000 | BIGINT(19)   | YES  |     |         |         
+ A002205000 | VARCHAR(255) | YES  |     |         |         
+ A002206000 | BIGINT(19)   | YES  |     |         |         
+ A002207000 | VARCHAR(255) | YES  |     |         |         
+ A002208000 | VARCHAR(255) | YES  |     |         |         
+ A002209000 | VARCHAR(255) | YES  |     |         |         
+ A002210000 | VARCHAR(255) | YES  |     |         |         
+ A002200000 | VARCHAR(255) | YES  |     |         |         
+ A0f2300000 | FLOAT(12)    | YES  |     |         |         
+ A002000000 | FLOAT(12)    | YES  |     |         |         
+ A003101000 | BIGINT(19)   | YES  |     |         |         
+ A003112000 | VARCHAR(255) | YES  |     |         |         
+ A003112101 | VARCHAR(255) | YES  |     |         |         
+ A003112201 | VARCHAR(255) | YES  |     |         |         
+ A003112301 | VARCHAR(255) | YES  |     |         |         
+ A003102000 | FLOAT(12)    | YES  |     |         |         
+ A003102101 | VARCHAR(255) | YES  |     |         |         
+ A003103000 | FLOAT(12)    | YES  |     |         |         
+ A0f3104000 | BIGINT(19)   | YES  |     |         |         
+ A003105000 | FLOAT(12)    | YES  |     |         |         
+ A003106000 | VARCHAR(255) | YES  |     |         |         
+ A003107000 | VARCHAR(255) | YES  |     |         |         
+ A0F3108000 | VARCHAR(255) | YES  |     |         |         
+ A0F3109000 | VARCHAR(255) | YES  |     |         |         
+ A003111000 | VARCHAR(255) | YES  |     |         |         
+ A003100000 | FLOAT(12)    | YES  |     |         |         
+ A003200000 | VARCHAR(255) | YES  |     |         |         
+ A003000000 | FLOAT(12)    | YES  |     |         |         
+ A004000000 | FLOAT(12)    | YES  |     |         |         
+ id         | BIGINT(19)   | NO   | PRI |         |         
+------------+--------------+------+-----+---------+---------
+
+Table: indicator
+---------+------------+------+-----+---------+---------
+ Field   | Type       | Null | Key | Default | Remarks 
+---------+------------+------+-----+---------+---------
+ id      | BIGINT(19) | NO   | PRI |         |         
+ symbol  | INT(10)    | NO   |     |         |         
+ year    | INT(10)    | NO   |     |         |         
+ DEBTEQ  | DOUBLE(22) | YES  |     |         |         
+ SALTA   | DOUBLE(22) | YES  |     |         |         
+ NPSAL   | DOUBLE(22) | YES  |     |         |         
+ RECSAL  | DOUBLE(22) | YES  |     |         |         
+ NFATA   | DOUBLE(22) | YES  |     |         |         
+ RETREND | DOUBLE(22) | YES  |     |         |         
+ GMTREND | DOUBLE(22) | YES  |     |         |         
+ SALGRTH | DOUBLE(22) | YES  |     |         |         
+ INVTA   | DOUBLE(22) | YES  |     |         |         
+ CASHTA  | DOUBLE(22) | YES  |     |         |         
+ LTA     | DOUBLE(22) | YES  |     |         |         
+ LOGDEBT | DOUBLE(22) | YES  |     |         |         
+ COSAL   | DOUBLE(22) | YES  |     |         |         
+ EBIT    | DOUBLE(22) | YES  |     |         |         
+ WCAP    | DOUBLE(22) | YES  |     |         |         
+ NIFA    | DOUBLE(22) | YES  |     |         |         
+ TDTA    | DOUBLE(22) | YES  |     |         |         
+ NPTA    | DOUBLE(22) | YES  |     |         |         
+ CACL    | DOUBLE(22) | YES  |     |         |         
+ WCTA    | DOUBLE(22) | YES  |     |         |         
+ QACL    | DOUBLE(22) | YES  |     |         |         
+ GPTA    | DOUBLE(22) | YES  |     |         |         
+ LTDTA   | DOUBLE(22) | YES  |     |         |         
+---------+------------+------+-----+---------+---------
+
+Table: profit
+------------+--------------+------+-----+---------+---------
+ Field      | Type         | Null | Key | Default | Remarks 
+------------+--------------+------+-----+---------+---------
+ Stkcd      | VARCHAR(255) | YES  |     |         |         
+ Accper     | VARCHAR(255) | YES  |     |         |         
+ Typrep     | VARCHAR(255) | YES  |     |         |         
+ B001100000 | VARCHAR(255) | YES  |     |         |         
+ B001101000 | VARCHAR(255) | YES  |     |         |         
+ Bbd1102000 | VARCHAR(255) | YES  |     |         |         
+ Bbd1102101 | VARCHAR(255) | YES  |     |         |         
+ Bbd1102203 | VARCHAR(255) | YES  |     |         |         
+ B0i1103000 | VARCHAR(255) | YES  |     |         |         
+ B0i1103101 | VARCHAR(255) | YES  |     |         |         
+ B0i1103111 | VARCHAR(255) | YES  |     |         |         
+ B0i1103203 | VARCHAR(255) | YES  |     |         |         
+ B0i1103303 | VARCHAR(255) | YES  |     |         |         
+ B0d1104000 | VARCHAR(255) | YES  |     |         |         
+ B0d1104101 | VARCHAR(255) | YES  |     |         |         
+ B0d1104201 | VARCHAR(255) | YES  |     |         |         
+ B0d1104301 | VARCHAR(255) | YES  |     |         |         
+ B0d1104401 | VARCHAR(255) | YES  |     |         |         
+ B0d1104501 | VARCHAR(255) | YES  |     |         |         
+ B0f1105000 | VARCHAR(255) | YES  |     |         |         
+ B001200000 | VARCHAR(255) | YES  |     |         |         
+ B001201000 | VARCHAR(255) | YES  |     |         |         
+ B0i1202000 | VARCHAR(255) | YES  |     |         |         
+ B0i1203000 | VARCHAR(255) | YES  |     |         |         
+ B0i1203101 | VARCHAR(255) | YES  |     |         |         
+ B0i1203203 | VARCHAR(255) | YES  |     |         |         
+ B0i1204000 | VARCHAR(255) | YES  |     |         |         
+ B0i1204101 | VARCHAR(255) | YES  |     |         |         
+ B0i1204203 | VARCHAR(255) | YES  |     |         |         
+ B0i1205000 | VARCHAR(255) | YES  |     |         |         
+ B0i1206000 | VARCHAR(255) | YES  |     |         |         
+ B001207000 | VARCHAR(255) | YES  |     |         |         
+ B0f1208000 | VARCHAR(255) | YES  |     |         |         
+ B0i1208103 | VARCHAR(255) | YES  |     |         |         
+ B001209000 | VARCHAR(255) | YES  |     |         |         
+ B001210000 | VARCHAR(255) | YES  |     |         |         
+ B001211000 | VARCHAR(255) | YES  |     |         |         
+ B001212000 | VARCHAR(255) | YES  |     |         |         
+ B0f1213000 | VARCHAR(255) | YES  |     |         |         
+ B001301000 | VARCHAR(255) | YES  |     |         |         
+ B001302000 | VARCHAR(255) | YES  |     |         |         
+ B001302101 | VARCHAR(255) | YES  |     |         |         
+ B001303000 | VARCHAR(255) | YES  |     |         |         
+ B001304000 | VARCHAR(255) | YES  |     |         |         
+ B001300000 | VARCHAR(255) | YES  |     |         |         
+ B001400000 | VARCHAR(255) | YES  |     |         |         
+ B001400101 | VARCHAR(255) | YES  |     |         |         
+ B001500000 | VARCHAR(255) | YES  |     |         |         
+ B001500101 | VARCHAR(255) | YES  |     |         |         
+ B001500201 | VARCHAR(255) | YES  |     |         |         
+ B001000000 | VARCHAR(255) | YES  |     |         |         
+ B002100000 | VARCHAR(255) | YES  |     |         |         
+ B002200000 | VARCHAR(255) | YES  |     |         |         
+ B002300000 | VARCHAR(255) | YES  |     |         |         
+ B002000000 | VARCHAR(255) | YES  |     |         |         
+ B002000101 | VARCHAR(255) | YES  |     |         |         
+ B002000201 | VARCHAR(255) | YES  |     |         |         
+ B003000000 | VARCHAR(255) | YES  |     |         |         
+ B004000000 | VARCHAR(255) | YES  |     |         |         
+ B005000000 | VARCHAR(255) | YES  |     |         |         
+ B006000000 | VARCHAR(255) | YES  |     |         |         
+ B006000101 | VARCHAR(255) | YES  |     |         |         
+ B006000102 | VARCHAR(255) | YES  |     |         |         
+ id         | BIGINT(19)   | NO   | PRI |         |         
+------------+--------------+------+-----+---------+---------
+
+Table: use_violation
+--------+------------+------+-----+---------+---------
+ Field  | Type       | Null | Key | Default | Remarks 
+--------+------------+------+-----+---------+---------
+ id     | BIGINT(19) | NO   | PRI |         |         
+ symbol | INT(10)    | NO   |     |         |         
+ year   | INT(10)    | NO   |     |         |         
+--------+------------+------+-----+---------+---------
+
+Table: violation
+-----------------+--------------+------+-----+---------+---------
+ Field           | Type         | Null | Key | Default | Remarks 
+-----------------+--------------+------+-----+---------+---------
+ ViolationID     | VARCHAR(255) | NO   | PRI |         |         
+ Symbol          | VARCHAR(255) | YES  |     |         |         
+ ViolationType   | VARCHAR(255) | YES  |     |         |         
+ ViolationTypeID | VARCHAR(255) | YES  |     |         |         
+ ViolationYear   | VARCHAR(255) | YES  |     |         |         
+ Activity        | TEXT(65535)  | YES  |     |         |         
+-----------------+--------------+------+-----+---------+---------
+
